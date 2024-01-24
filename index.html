@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha384-GLhlTQ8iK9tTQz47rDFsMqNJSLEJ21S9i1D1ABtX3jAZC4FZMMJn/6w9dA9lI1P+"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>TO-DO APP</h1>
+      <form id="taskForm">
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="Add a new task..."
+          required
+        />
+        <div class="custom-dropdown">
+          <select id="taskPriority">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <button type="button" onclick="addTask()">Add Task</button>
+      </form>
+      <ul id="taskList"></ul>
+    </div>
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7563f2a69a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
