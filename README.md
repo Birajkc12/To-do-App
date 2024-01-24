@@ -14,4 +14,10 @@ Welcome to Task 3 of the Veritech Software IT Services - Web Development Interns
 - **HTML:** Structure of the app.
 - **CSS:** Styling for an appealing user interface.
 - **JavaScript:** Dynamic and interactive functionalities.
-![image](https://github.com/Birajkc12/To-do-App/assets/79737280/ae58aeda-eb77-4094-88c3-4ec0e22743a2)
+
+
+
+
+
+![image](https://github.com/Birajkc12/To-do-App/assets/79737280/2b423307-10cc-4612-9d39-46f24d9e93b3)
+
